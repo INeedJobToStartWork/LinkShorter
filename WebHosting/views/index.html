@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Link Shortener</title>
+    <script  defer src="JS/script.js"></script>
+    <link type="text/css" rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <main>
+        <h1>Link Shortener</h1>
+        <p>Make it shorter!</p>
+        
+        <form method="post" action="javascript:createLink()"  >
+            <input type="url" placeholder="Url" name="url" id="url" required>
+            <button id="test"   class="btn-purple" style="width: 100%;">CUT</button>
+        </form>
+        
+        <h5 id="finallyLink"></h5>
+    </main>
+</body>
+</html>
